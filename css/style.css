@@ -58,6 +58,17 @@ a {
   background-color: #222020;
 }
 
+
+.modules-content {
+  display: flex;
+  /* remember */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
 .page-header{
   color: white;
   font-family: 'GraphikLCG',sans-serif;
@@ -146,4 +157,11 @@ a {
 
 .pictures-program img{
   max-width: 300px;
+}
+
+.contant {
+  padding-left: 20px;
+  background-image: url(/img/bottom-modules.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
