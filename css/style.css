@@ -164,4 +164,25 @@ a {
   background-image: url(/img/bottom-modules.svg);
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.more-link {
+  padding: 20px 40px;
+  color: #2f1ce4;
+  background-color: transparent;
+  border: 3px solid #2f1ce4;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.card-bottom {
+  text-align: right;
+}
+
+.modules-cards {
+  display: inline-block;
 }
