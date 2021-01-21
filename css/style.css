@@ -177,7 +177,8 @@ a {
 .card {
   background-position: top;
   padding-top: 100px;
-  max-width: 300px;
+  width: 250px;
+  height: 350px;
   margin: 20px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -196,10 +197,12 @@ a {
 }
 
 .card-bottom {
-  text-align: right;
   color: lightslategray;
   font-size: 40px;
   margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .modules-cards {
