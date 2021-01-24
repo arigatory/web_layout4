@@ -58,17 +58,6 @@ a {
   background-color: #222020;
 }
 
-
-.modules-content {
-  display: flex;
-  /* remember */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-
 .page-header{
   color: white;
   font-family: 'GraphikLCG',sans-serif;
@@ -159,32 +148,65 @@ a {
   max-width: 300px;
 }
 
-.module-contant {
-  padding-left: 20px;
-  padding-bottom: 500px;
+
+/* Modules */
+.modules-container {
+  width: 1920px;
+  height: 2261px;
   background-image: url(/img/bottom-modules.svg);
   background-position: bottom;
   background-repeat: no-repeat;
+  padding-left: 370px;
+  padding-right: 370px;
 }
 
-.more-link {
-  padding: 20px 40px;
-  background-color: transparent;
-  border: 3px solid #2f1ce4;
+.modules-header {
+  font-size: 32px;
+}
+
+.modules-title {
+  height: 48px;
+  font-weight: bold;
+  margin-left: 20px;
   margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.modules-content {
+  margin-right: 80px;
+  margin-right: 80px;
+}
+
+.modules-cards {
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1020px;
+  padding-inline-start: 0px;
 }
 
 .card {
   background-position: top;
-  padding-top: 100px;
-  width: 250px;
-  height: 350px;
-  margin: 20px;
+  padding-top: 205px;
+  margin-bottom: 50px;
+  width: 480px;
+  height: 505px;
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom {
+  color: lightslategray;
+  font-size: 40px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .card p {
@@ -193,21 +215,17 @@ a {
 .card h2 {
   color: #2f1ce4;
   margin: 10px;
-
 }
 
-.card-bottom {
-  color: lightslategray;
-  font-size: 40px;
-  margin: 5px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.modules-cards {
+.more-link {
+  margin-top: 50px;
+  padding: 32px 80px;
+  background-color: transparent;
+  border: 3px solid #2f1ce4;
   display: inline-block;
-  margin: auto;
-  width: 70%;
-  padding: 10px;
+  width: 280px;
+  color: #2f1ce4;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 370px;
 }
