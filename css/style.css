@@ -151,13 +151,17 @@ a {
 
 /* Modules */
 .modules-container {
-  width: 1920px;
-  height: 2261px;
   background-image: url(/img/bottom-modules.svg);
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: auto;
   padding-left: 370px;
   padding-right: 370px;
+  padding-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .modules-header {
