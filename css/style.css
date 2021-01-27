@@ -168,6 +168,10 @@ a {
   font-size: 32px;
 }
 
+.left {
+  margin-right: auto;
+}
+
 .modules-title {
   height: 48px;
   font-weight: bold;
