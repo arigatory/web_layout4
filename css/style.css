@@ -151,10 +151,6 @@ a {
 
 /* Modules */
 .modules-container {
-  background-image: url(/img/bottom-modules.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: auto;
   padding-left: 370px;
   padding-right: 370px;
   padding-bottom: 500px;
@@ -164,8 +160,16 @@ a {
   align-items: center;
 }
 
+.wave {
+  background-image: url(/img/bottom-modules.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .modules-header {
-  font-size: 32px;
+  font-size: 48px;
+  font-family: Graphik LCG;
 }
 
 .left {
@@ -198,6 +202,8 @@ a {
   background-position: top;
   padding-top: 205px;
   margin-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 52px;
   width: 480px;
   height: 505px;
   background-size: contain;
@@ -209,7 +215,7 @@ a {
 }
 
 .card-bottom {
-  color: lightslategray;
+  color:#eaeaea;
   font-size: 40px;
   margin-top: auto;
   margin-left: auto;
@@ -217,12 +223,9 @@ a {
   margin-bottom: 10px;
 }
 
-.card p {
-  margin: 10px;
-}
 .card h2 {
   color: #2f1ce4;
-  margin: 10px;
+  font-size: 36px;
 }
 
 .more-link {
@@ -236,4 +239,14 @@ a {
   align-items: center;
   font-size: 16px;
   margin-left: 370px;
+}
+
+.modules-card-list {
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.modules-card-list li {
+  margin: 7px;
 }
