@@ -151,13 +151,10 @@ a {
 
 /* Modules */
 .modules-container {
-  padding-left: 370px;
-  padding-right: 370px;
-  padding-bottom: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .wave {
@@ -165,6 +162,7 @@ a {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto;
+  padding-bottom: 500px;
 }
 
 .modules-header {
@@ -182,11 +180,7 @@ a {
   margin-left: 20px;
   margin-top: 100px;
   margin-bottom: 0;
-}
-
-.modules-content {
-  margin-right: 80px;
-  margin-right: 80px;
+  font-family: Graphik LCG;
 }
 
 .modules-cards {
@@ -195,7 +189,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1020px;
-  padding-inline-start: 0px;
 }
 
 .card {
